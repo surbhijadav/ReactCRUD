@@ -1,0 +1,112 @@
+body{background-color:  rgb(35, 31, 45);
+}
+
+html{
+    font-size: 62.5%;
+    font-family: "urbanist";
+}
+
+p,
+a,
+li,
+input{
+    font-size: 1.6rem;
+    letter-spacing: 0.12 rem;
+    line-height: 1.5;
+    color: white;
+}
+
+button{
+    padding: 0.8rem 3.2rem;
+    border-radius: 0.3 rem;
+    cursor: pointer;
+    border: 0;
+    background-color: aquamarine;
+    box-shadow: black;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all 0.5s ease;
+    margin-left: 1.2rem;
+    -webkit-border-radius:0.3rem;
+    -moz-border-radius:0.3rem;
+    -ms-border-radius:0.3rem;
+    -o-border-radius:0.3rem;
+}
+
+button:hover{
+    background-color :aqua;
+    color: white;
+    box-shadow: aquamarine;
+}
+
+.main-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-form{
+    padding: 1.6rem;
+    background-color: black;
+    border-radius: 0.6rem;
+    -webkit-border-radius:0.6rem;
+    -moz-border-radius:0.6rem;
+    -ms-border-radius : 0.6rem;
+    -o-border-radius:0.6rem;
+    margin: 3.2rem auto;
+}
+
+form {
+    display: flex;
+    gap: 1.2rem;
+
+
+& input {
+    width: 24rem;
+    color: black;
+    border:  0.1rem solid grey;
+    outline: none;
+    border-radius: 0.3rem;
+    -webkit-border-radius : 0.3rem;
+    -moz-border-radius:0.6rem;
+    -ms-border-radius : 0.6rem;
+    -o-border-radius:0.6rem;
+    padding: 0.8rem 1.2rem;
+}}
+
+.section-post{
+    width: 90%;
+
+    & ol {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 3.2rem;
+
+        & li {
+            background-color: rgb(30, 23, 54);
+            padding: 1.6rem;
+            border-radius: 0.3rem;
+            -moz-border-radius:0.3rem;
+            -ms-border-radius : 0.3rem;
+            -o-border-radius:0.3rem;
+            list-style-position: inside;
+            border-left: 0.2rem solid white;
+        }
+
+        & .btn-delete {
+            background-color: red;
+        }
+
+        &:hover {
+            color: white;
+            box-shadow: brown;
+        }
+
+    }
+}
+
+
